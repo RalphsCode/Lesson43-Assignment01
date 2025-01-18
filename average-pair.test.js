@@ -1,4 +1,4 @@
-import 
+const averagePair = require('./average-pair');
 
 describe("averagePair", function () {
   it("should return true if an average pair exists", function () {

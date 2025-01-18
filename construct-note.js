@@ -7,7 +7,7 @@ function constructNote(str1, str2) {
     // Populate the frequency counter with characters from str2
     for (let letter of str2) {
         frequencyCounter[letter] = (frequencyCounter[letter] || 0) + 1;
-    }
+        }    // END for loop
     
     // Check if str1 letters are in the frequency counter
     for (let letter of str1) {
@@ -15,7 +15,7 @@ function constructNote(str1, str2) {
             return false; // If the character is not available or count is 0
         }
         frequencyCounter[letter]--; // Use up one occurrence of the character
-    }
+    }   // END for loop
     
     return true; // If all characters in str1 were found in str2
 }   // END ConstructNote()
