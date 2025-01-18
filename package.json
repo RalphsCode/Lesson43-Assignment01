@@ -1,0 +1,14 @@
+{
+  "name": "pointers_practice",
+  "version": "1.0.0",
+  "description": "Practicing some pointer logic",
+  "main": "average-pair.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "RalphsCode",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
